@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChrisKay Treasures</title>
+    <link rel = "stylesheet" type = "text/css" href="AntiqueTreasurescss.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src = "AntiqueTreasuresjs.js"></script>
+</head>
+<body>
+<header>
+    <!-- Following places the business log at the top of the page -->
+    <h1><img src = "image0.jpeg" alt = "logo" width = "300" height = "300" class = "logo"></h1>
+    <!-- The following creates a navigation bar that will be used across all pages -->
+    <nav id = "navBar">
+        <a id="home" href = "https://webpages.uncc.edu/coverc14/Project/index.html">Home</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/AboutUs.html">About Us</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/Photography.html">Photography</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/AntiqueTreasures.html">Antique Treasures</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/RareCollectibles.html">Rare Collectibles</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/OnlineStores.html">Online Stores</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/ContactUs.html">Contact Us/Inquiries</a>
+    </nav>
+</header>
+<!-- The following creates a 1x3 table that will be used to organize the information on the webpage -->
+<table class="antiquepara">
+    <!-- The first row is just a paragraph that gives a summary about the client's antique treasures and what he collects -->
+    <tr>
+        <td>Every since I was a child I have loved collecting all sorts of antiques. It started out with <br>
+            an antique coin collection and has now blossomed into antiques of all kind. I enjoy exploring <br>
+            antique stores all across the country. My favorite type of antiques are old glass bottles. There <br>
+            are many different items that I sell including but not limited to antique soda bottles, insulators, <br>
+            ink bottles, currency, and much more. If there are any items that you would like me to be on the <br>
+            lookout for click the link below to contact me and request specific items. <br>
+        </td>
+    </tr>
+    <!-- The next row is a button that links the user to a photo gallery of some of the clients available items -->
+    <tr>
+        <td id="Gallery" class = "AntiqueLinks"><button id="galbutton">Photo Gallery</button></td>
+    </tr>
+    <!-- The bottom row of this table is just a button that links the user to the Contact Us page -->
+    <tr>
+        <td class = "AntiqueLinks"><button id="reqbutton">Request Items</button></td>
+    </tr>
+</table>
+<!-- The following sets up the area in div tags that will cause a promocode to appear when the user hovers over the images at the bottom -->
+<div id = "promo">
+
+</div>
+<!-- The table below is a set of three images that gives a highlight of what the client has to offer. When the user hovers over these images a promocode will appear above -->
+<table id = "antipho" class="AntiquePhotos">
+    <tr>
+        <td><img src = "MayrsBottle.JPG" alt = "medicinebottle" class = "medicinebottle" width = "374" height = "280"></td>
+        <td><img src = "Vase.JPG" alt = "vase" width = "187" height = "280" class = "vase"></td>
+        <td><img src = "McLaughlinInsulator.jpeg" alt = "Insulator" width = "210" height = "280" class = "Insulator"></td>
+    </tr>
+</table>
+</body>
+<!-- The following is the footer that will be used across all pages -->
+<footer>
+    <p>ChrisKay Treasures 2021</p>
+</footer>
+</html>

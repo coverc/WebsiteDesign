@@ -1,0 +1,68 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navBar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    background-color: darkgrey;
+}
+.drophead {
+    font-size: 20px;
+}
+#navBar a {
+    color: yellow;
+    text-decoration: none;
+    margin-right: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 600px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+header {
+    font-family: "Bell MT";
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 15px 25px;
+    background-color: lightgrey;
+}
+img {
+    align-items: center;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: .5em;
+    margin-top: 10px;
+    color:purple;
+}
+
+ul {
+    padding-left: 45px;
+}
+li {
+    padding-bottom: .5em;
+}
+p {
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+footer {
+    text-align:center;
+    font-size: 10px;
+}

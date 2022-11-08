@@ -1,0 +1,87 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navBar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    background-color: darkgrey;
+}
+#navBar a {
+    color: yellow;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header {
+    font-family: "Bell MT";
+}
+body {
+    background-color: lightgrey;
+}
+.antiquepara {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.AntiqueLinks {
+    font-size: 40px;
+}
+.AntiquePhotos {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navPhotography {
+    padding-left: 30px;
+}
+
+.navAntique {
+    padding-left: 30px;
+}
+
+.navRare {
+    padding-left: 30px;
+}
+
+.navOnline {
+    padding-left: 30px;
+}
+
+.navContact {
+    padding-left: 30px;
+}
+.navAbout {
+    padding-left: 30px;
+}
+.AntiquePhotos {
+    border-style: solid;
+    border-color: rebeccapurple;
+    background-color: black;
+    border-width: 10px;
+}
+.medicinebottle {
+    padding: 20px;
+}
+.vase {
+    padding: 20px;
+}
+.Insulator {
+    padding: 20px;
+}
+button {
+    font-size: 25px;
+    font-family: "Times New Roman";
+    color: rebeccapurple;
+    background-color: black;
+}
+footer {
+    text-align:center
+}
+#promo {
+    text-align: center;
+}

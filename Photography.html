@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChrisKay Treasures</title>
+    <link rel = "stylesheet" type = "text/css" href="Photographycss.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src = "Photographyjs.js"></script>
+</head>
+<body>
+<header>
+    <!--The following places the business logo at the top of the page -->
+    <h1><img src = "image0.jpeg" alt = "logo" width = "300" height = "300" class = "logo"></h1>
+    <!-- The following creates the navigation bar that will be used on all pages -->
+    <nav id = "navBar">
+        <a id = "home" href = "https://webpages.uncc.edu/coverc14/Project/index.html">Home</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/AboutUs.html">About Us</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/Photography.html">Photography</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/AntiqueTreasures.html">Antique Treasures</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/RareCollectibles.html">Rare Collectibles</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/OnlineStores.html">Online Stores</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/ContactUs.html">Contact Us/Inquiries</a>
+    </nav>
+</header>
+<!-- The following creates the table that will be used to organize the contents on the page -->
+    <table class="photopara">
+    <tr>
+        <!-- The following is the paragraph about the client's photography interests and services -->
+    <td>I have been taking photos both recreationally and professionally for many years. I began <br>
+        taking photos as a hobby whenever I came across something photo-worthy. Now I have turned <br>
+        it into part of my business. I specialize in action shots but I offer a wide range of photos <br>
+        I have taken. You can buy custom merchandise with your photo of choice on it. I also offer <br>
+         private photo shoots and photo shooting for events. Click the link below to fill out the <br>
+         form for more information on private photo shoots, event photography, or for custom merchandise.</td>
+    </tr>
+        <!--The following is the button that links the user to the Photography photo gallery -->
+     <tr>
+        <td class = "PhotographyLinks"><button id="galbutton">Photo Gallery</button></td>
+        </tr>
+        <!--The following is a button that links the user to the contact us form that they can contact the client about any photography services he offers -->
+        <tr>
+         <td class = "PhotographyLinks"><button id="reqbutton">Contact Me About Photography</button></td>
+     </tr>
+    </table>
+<!-- The following sets up the div tags that will show a promocode that will appear when the user hovers over the photos at the bottom of the page -->
+<div id="promo">
+
+</div>
+<!-- The following sets up a small table that will have three pictures that highlights the client's photography skills-->
+<table id="phopho" class="PhotographyPhotos">
+    <tr>
+        <td><img src = "IMG_0297.JPG" alt = "wedding" class = "wedding" width = "380" height = "254"></td>
+        <td><img src = "Deer.jpg" alt = "Deer" width = "369" height = "254" class = "Deer"></td>
+        <td><img src = "LowesFalls.jpg" alt = "LowesFalls" width = "286" height = "254" class = "LowesFalls"></td>
+    </tr>
+</table>
+<!-- The following sets up the area that will allow users to search for photos to give them some inspiration to get in on the photography hobby themselves -->
+<h3>Do you need some inspiration to begin taking your own photographs? Search images from Flickr below!</h3>
+Search for images: <input type="text" size = "30" id="search">
+<input type="button" value="Search" id="btnSearch">
+<h3>Flickr Results</h3>
+<div id="flickrpho"></div>
+</body>
+<!-- The following is a footer that will be used across all pages -->
+<footer>
+    <p>ChrisKay Treasures 2021</p>
+</footer>
+</html>

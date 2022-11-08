@@ -1,0 +1,76 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navBar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    background-color: darkgrey;
+}
+#navBar a {
+    color: yellow;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header {
+    font-family: "Bell MT";
+}
+body {
+    background-color: lightgrey;
+}
+.photopara {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.PhotographyLinks {
+    font-size: 40px;
+}
+.PhotographyPhotos {
+    margin-left: auto;
+    margin-right: auto;
+}
+.PhotographyPhotos {
+    border-style: solid;
+    border-color: rebeccapurple;
+    background-color: black;
+    border-width: 10px;
+}
+.wedding {
+    padding: 20px;
+}
+.Deer {
+    padding: 20px;
+}
+.LowesFalls {
+    padding: 20px;
+}
+button {
+    font-size: 25px;
+    font-family: "Times New Roman";
+    color: rebeccapurple;
+    background-color: black;
+}
+
+footer {
+    text-align:center
+}
+#promo {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+input {
+    align-content: center;
+}

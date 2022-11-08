@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChrisKay Treasures</title>
+    <link rel = "stylesheet" type = "text/css" href="ContactUscss.css">
+</head>
+<body>
+
+<header>
+    <!-- The following adds the business logo to the top of the page -->
+    <h1><img src = "image0.jpeg" alt = "logo" width = "300" height = "300" class = "logo"></h1>
+    <!-- The following creates the navigation bar that will be used across all pages -->
+    <nav id = "navBar">
+        <a href = "https://webpages.uncc.edu/coverc14/Project/index.html">Home</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/AboutUs.html">About Us</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/Photography.html">Photography</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/AntiqueTreasures.html">Antique Treasures</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/RareCollectibles.html">Rare Collectibles</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/OnlineStores.html">Online Stores</a>
+        <a href = "https://webpages.uncc.edu/coverc14/Project/ContactUs.html">Contact Us/Inquiries</a>
+    </nav>
+</header>
+<!-- The following creates the form that is used to contact the client for any reason -->
+<form action="#" method="POST">
+    <div>
+        <!-- Full name textbox-->
+        <label id="fullname" for="full">Full Name:</label>
+        <input type="text" required name="full" id="full" placeholder="Your Name" style= "height:30px">
+    </div>
+    <!-- Email address textbox-->
+    <div>
+        <label for="email" id="emailaddress">Email:</label>
+        <input type="email" required name="email" id="email" placeholder="@gmail.com" style= "height:30px">
+    </div>
+    <!-- Phone number Textbox -->
+    <div>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" minlength="10" maxlength="10" placeholder="9999999999" style= "height:30px">
+    </div>
+    <!-- Checkboxes for Antiques or Rare Collectibles-->
+    <div>
+        <label for="Antiques">Antiques</label>
+        <input type="checkbox" id="Antiques" name="Antiques">
+    </div>
+    <div>
+        <label for="RareItems">Rare Collectibles</label>
+        <input type="checkbox" id="RareItems" name="RareItems">
+    </div>
+    <!-- Dropdown box for the user to select how they would like to be contacted, phone or email -->
+    <div>
+        <label>How would you like to be contacted?</label>
+        <select name="contact" style= "height:30px">
+            <option value="web">Email</option>
+            <option value="text">Phone</option>
+        </select>
+    </div>
+    <!-- Comment box where the user can describe their reason for contacting the client -->
+    <div>
+        <label for="comments">Comments/Questions: </label>
+        <textarea type="text" name="comments" id="comments" rows="10" cols="30"></textarea>
+    </div>
+    <!-- The submit button that submits the form -->
+    <div>
+        <input id="submit" type="submit" value="Submit">
+    </div>
+</form>
+</body>
+<!-- The following creates the footer that will be used across all pages -->
+<footer>
+    <p>ChrisKay Treasures 2021</p>
+</footer>
+</html>

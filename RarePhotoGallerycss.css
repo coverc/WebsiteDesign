@@ -1,0 +1,49 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navBar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    background-color: darkgrey;
+}
+#navBar a {
+    color: yellow;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header {
+    font-family: "Bell MT";
+}
+body {
+    background-color: lightgrey;
+}
+.navPhotography {
+    padding-left: 30px;
+}
+
+
+
+.RarePhotoGal {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 1800px;
+}
+.topRow {
+    width: 600px;
+    text-align: center;
+}
+.middleRow {
+    width: 600px;
+    text-align: center;
+}
+.bottomRow {
+    width: 600px;
+    text-align: center;
+}
